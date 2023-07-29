@@ -26,9 +26,7 @@ body {
 }
 
 #FormContainer {
-  height: 70vh;
-  min-height: 400px;
-  max-height: 500px;
+  height: 500px;
   width: 40vw;
   min-width: 300px;
   max-width: 400px;
@@ -37,9 +35,7 @@ body {
 }
 
 #RegisterFormContainer {
-  height: 70vh;
-  min-height: 600px;
-  max-height: 700px;
+  height: 600px;
   width: 30vw;
   min-width: 300px;
   max-width: 400px;
