@@ -8,65 +8,38 @@
     <link rel="stylesheet" href="form.css" />
   </head>
 
-
   <body>
-
     <div id="RegisterFormContainer">
-
-      <form id="Form" action="" method="post">
-
+      <form id="Form" action="signup-process.php" method="POST">
         <label class="FormLabel" for="name">Nome</label>
-        <input
-          class="FormInput"
-          type="text"
-          name="name"
-          id="inputName"
-          placeholder="Digite seu nome"
-        />
+        <input class="FormInput" type="text" name="name" placeholder="Digite seu nome" />
 
         <label class="FormLabel" for="cellphone">Telefone/Celular</label>
         <input
           class="FormInput"
           type="tel"
           name="cell"
-          id="inputCell"
           placeholder="Digite seu número de Telefone/Celular"
         />
 
         <label class="FormLabel" for="email">E-mail</label>
-        <input
-          class="FormInput"
-          type="email"
-          name="email"
-          id="inputEmail"
-          placeholder="Digite seu E-mail"
-        />
+        <input class="FormInput" type="email" name="email" placeholder="Digite seu E-mail" />
 
         <label class="FormLabel" for="password">Senha</label>
-        <input
-          class="FormInput"
-          type="password"
-          name="password"
-          id="inputPassword"
-          placeholder="Digite sua Senha"
-        />
+        <input class="FormInput" type="password" name="password" placeholder="Digite sua Senha" />
 
         <label class="FormLabel" for="password">Confirmar Senha</label>
         <input
           class="FormInput"
           type="password"
-          name="password"
-          id="inputConfirmPassword"
+          name="confirmpassword"
           placeholder="Confirme sua Senha"
         />
 
-        <button class="SubmitButton" type="submit">Enviar</button>
+        <input class="SubmitButton" type="submit" value="Enviar">
 
         <span>Já tem uma conta? <a href="index.html">Login</a></span>
       </form>
-
     </div>
-
   </body>
-
 </html>
